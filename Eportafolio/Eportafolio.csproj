@@ -171,8 +171,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AcercaController.cs" />
+    <Compile Include="Controllers\CalendarController.cs" />
+    <Compile Include="Controllers\ContactoController.cs" />
+    <Compile Include="Controllers\CurriculumController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProyectosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -285,9 +290,35 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Proyectos\Create.cshtml" />
+    <Content Include="Views\Proyectos\Delete.cshtml" />
+    <Content Include="Views\Proyectos\Details.cshtml" />
+    <Content Include="Views\Proyectos\Edit.cshtml" />
+    <Content Include="Views\Proyectos\Index.cshtml" />
+    <Content Include="Views\Curriculum\Create.cshtml" />
+    <Content Include="Views\Curriculum\Delete.cshtml" />
+    <Content Include="Views\Curriculum\Details.cshtml" />
+    <Content Include="Views\Curriculum\Edit.cshtml" />
+    <Content Include="Views\Curriculum\Index.cshtml" />
+    <Content Include="Views\Calendar\Create.cshtml" />
+    <Content Include="Views\Calendar\Delete.cshtml" />
+    <Content Include="Views\Calendar\Details.cshtml" />
+    <Content Include="Views\Calendar\Edit.cshtml" />
+    <Content Include="Views\Calendar\Index.cshtml" />
+    <Content Include="Views\Contacto\Create.cshtml" />
+    <Content Include="Views\Contacto\Delete.cshtml" />
+    <Content Include="Views\Contacto\Details.cshtml" />
+    <Content Include="Views\Contacto\Edit.cshtml" />
+    <Content Include="Views\Contacto\Index.cshtml" />
+    <Content Include="Views\Acerca\Create.cshtml" />
+    <Content Include="Views\Acerca\Delete.cshtml" />
+    <Content Include="Views\Acerca\Details.cshtml" />
+    <Content Include="Views\Acerca\Edit.cshtml" />
+    <Content Include="Views\Acerca\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Img\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
